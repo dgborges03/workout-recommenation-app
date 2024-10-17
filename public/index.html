@@ -1,0 +1,55 @@
+ <!--
+     Author: Donavan Borges
+     CS 132 Spring 2024
+     Date: May 27, 2024
+
+     This is the index.html page for my movie recommendation app. 
+
+     \(G_G)/
+        |
+        |
+       /\
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="movies.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Movie Recommendation App</h1>
+        <p>Whats the Move...ie?</p>
+        <a href="reviews.html">Leave a Movie Review!</a>
+    </header>
+    <main>
+        <section id="search-and-recommend">
+            <h2>Search Movies</h2>
+            <input type="text" id="search-input" placeholder="Enter movie name">
+            <button id="search-movie-btn">Search</button>
+            <div id="response-message">
+                <!-- Messages will be populated here -->
+            </div>
+            <div id="selected-movie">
+                <!-- Selected movie will be populated here -->
+            </div>
+            <div id="recommendations">
+                <!-- Recommendations will be populated here -->
+            </div>
+        </section>
+        <aside id="saved-movies">
+            <h2>Saved Movies</h2>
+            <ul id="movies-list">
+                <!-- Saved movies will be listed here -->
+            </ul>
+            <button id="random-movie-btn">Pick a Random Movie to Watch!</button>
+        </aside>
+    </main>
+    <footer>
+        <p>Data from TMDB API and Inspired by Anibrain.ai</p>
+    </footer>
+</body>
+</html>

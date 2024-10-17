@@ -1,0 +1,49 @@
+ <!--
+     Author: Donavan Borges
+     CS 132 Spring 2024
+     Date: June 4, 2024
+
+     This is the review.html page for my movie recommendation app. 
+
+     \(G_G)/
+        |
+        |
+       /\
+    I was approved for an extension by Professor Hovik.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommendation App | Reviews</title>
+    <link rel="stylesheet" href="review-styles.css">
+    <script src="movies.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Movie Reviews</h1>
+        <p>Leave a review on a movie you have watched below!</p>
+        <a href="index.html">Back to Home</a>
+    </header>
+    <main>
+        <aside>
+            <form id="review-form">
+                <label for="movie">Movie Title:</label>
+                <input type="text" id="movie" name="movie" required>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" required></textarea>
+                <label for="rating">Rating (Out of 5):</label>
+                <input type="number" id="rating" name="rating" min="0" max="5" step="0.01" required>
+                <button type="submit" id="submit-review-btn">Submit Review</button>
+            </form>
+        </aside>
+        <section id="reviews-container">
+            <!-- Reviews will be populated here -->
+        </section>
+    </main>
+    <footer>
+        <p>Data from TMDB API and Inspired by Anibrain.ai</p>
+    </footer>
+</body>
+</html>

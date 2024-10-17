@@ -1,0 +1,150 @@
+/*
+    Author: Donavan Borges
+    CS 132 Spring 2024
+    Date: May 27, 2024
+
+    This is the styles.css page for my movie recommendation app. It is used by
+    the index.html page.
+     
+     \(G_G)/
+        |
+        |
+       /\
+*/
+/* The overall color scheme for my webpage is inspired by the vaporwave theme. */
+
+body, h1, h2, p, ul, li, div, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ff7e5f, #765285);
+    color: #ffffff;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+
+}
+
+header a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fe8a71;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#search-and-recommend {
+    flex: 3;
+    padding-right: 20px;
+}
+
+#saved-movies {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 2px solid #ffffff50;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #fe8a71;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#movies-list {
+    list-style: none;
+    overflow-y: auto;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+#movies-list li {
+    background-color: #00000080;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#selected-movie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#selected-movie h2 {
+    margin: 0;
+    font-size: 18pt;
+    white-space: nowrap;
+}
+
+#selected-movie img {
+    width: auto;
+    max-height: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#recommendations {
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.movie-card {
+    background-color: #ffffff1a;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #00000033;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.movie-card img {
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.movie-card h3, .movie-card p {
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #32003299;
+}

@@ -1,0 +1,18 @@
+Please fill out the following and submit with your CP 4 submission (added to help us know what to focus on when grading):
+
+1. What have you learned and applied in CP 4 since CP 3?
+For this CP, I decided to continue to build on CP 3 and add what I learned about Node/Express. I also tweaked
+a little bit of the orginial code from CP 3 to better fulfill the spec requirements and fix basic errors (e.g
+indenation and function names).
+
+2. To what extent would you like feedback in CP 3 (e.g. thorough, particular areas of HTML/CSS/JS/UI)?
+I would love to get feedback on my backend API. I feel like I created it correctly, but I am still unsure because
+it is still a fresh topic for me.
+
+3. Anything else you would like the grader to know?
+Once again this was a really fun assignment! I really liked my CP 3, so I decided to continue to build on it for
+CP 4. I was approved for an extension by Professor Hovik.
+
+
+The specific files I created for CP4 are app.js, review-styles.jss, reviews.html, APIDOC.md, movies.js,
+and package.json. The rest of the files were generated or from CP 3.
